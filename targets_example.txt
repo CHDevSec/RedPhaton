@@ -1,0 +1,19 @@
+# Arquivo de exemplo - targets.txt
+# Formato: um alvo por linha
+# Comentários começam com #
+
+# Exemplos de IPs
+192.168.1.1
+10.0.0.1
+
+# Exemplos de domínios
+example.com
+test.local
+scanme.nmap.org
+
+# Exemplos com protocolo (serão normalizados)
+https://admin.example.com
+http://test.example.com:8080
+
+# IPv6 (exemplo)
+::1 

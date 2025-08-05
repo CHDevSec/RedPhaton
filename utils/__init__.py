@@ -1,0 +1,1 @@
+# Utilitários para Banner Scanner Tool 

@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environment
+venv/
+env/
+blackhat_env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Backup files
+*_backup.py
+*_before_*.py
+*.bak
+*.tmp
+
+# Test files (only specific test files, keeping test_integration.py)
+test_banner.py
+*_test.py
+
+# Logs
+*.log
+
+# Output files (except specific examples)
+output/*.json
+output/*.csv
+output/relatorio_*.html
+output/resultado_*.html
+output/test_*.html
+
+# Temporary files
+*.temp
+*.tmp

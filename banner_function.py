@@ -24,11 +24,11 @@ def display_banner():
 {CYAN}{RESET} {RED}   ░        ░  ░   ░              ░  ░  ░      ░  ░            ░ ░           ░{RESET} 
 {CYAN}{RESET} {RED}                 ░                                                              {RESET}                                         
 {CYAN}{RESET}                                                                              
-{CYAN}╔════════════════════════════════════════════════════════════════════╗{RESET}
-{CYAN}║{RESET}  {BOLD}{WHITE}🔥 RedPhantom - Advanced Red Team Framework v3.0{RESET}                {CYAN}║{RESET}
-{CYAN}║{RESET}  {YELLOW}👨‍💻 Developed by: Caio Henrique{RESET}  {GREEN}👻 Phantom Stealth Capabilities{RESET}  {CYAN}║{RESET}
-{CYAN}║{RESET}  {BLUE}💀 Zero-Day Discovery • C2 Framework • Advanced Persistence{RESET}        {CYAN}║{RESET}
-{CYAN}╚════════════════════════════════════════════════════════════════════╝{RESET}
+{CYAN}╔════════════════════════════════════════════════════════════════╗{RESET}
+{CYAN}║{RESET}  {BOLD}{WHITE}🔥 RedPhantom - Advanced Red Team Framework v3.0{RESET}              {CYAN}║{RESET}
+{CYAN}║{RESET}  {YELLOW}Developed by: Caio Henrique{RESET}  {GREEN}👻 Phantom Stealth Capabilities{RESET}  {CYAN}║{RESET}
+{CYAN}║{RESET}  {BLUE}💀 Zero-Day Discovery • C2 Framework • Advanced Persistence{RESET}   {CYAN}║{RESET}
+{CYAN}╚════════════════════════════════════════════════════════════════╝{RESET}
     """
     
     print(banner)

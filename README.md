@@ -233,94 +233,94 @@ pip install pycryptodome paramiko scapy dnspython
 ### **🔥 ABSOLUTE EXPERT MODE (ALL MODULES)**
 ```bash
 # MAXIMUM DEVASTATION - ALL TECHNIQUES ACTIVATED
-python3 ScanBanner.py --target lab.local --absolute-expert --output destruction.html
+python3 RedPhantom.py --target lab.local --absolute-expert --output destruction.html
 
 # ABSOLUTE EXPERT with stealth
-python3 ScanBanner.py --target stealth-target.com --absolute-expert --stealth-mode phantom
+python3 RedPhantom.py --target stealth-target.com --absolute-expert --stealth-mode phantom
 
 # Multi-target absolute expert
-python3 ScanBanner.py --file corporate-targets.txt --absolute-expert --verbose
+python3 RedPhantom.py --file corporate-targets.txt --absolute-expert --verbose
 
 # Safe testing with audit mode
-python3 ScanBanner.py --target any-target.com --absolute-expert --audit --verbose
+python3 RedPhantom.py --target any-target.com --absolute-expert --audit --verbose
 ```
 
 ### **🕳️ ZERO-DAY DISCOVERY**
 ```bash
 # Automated zero-day hunting
-python3 ScanBanner.py --target webapp.com --zero-day-discovery --blackhat --verbose
+python3 RedPhantom.py --target webapp.com --zero-day-discovery --blackhat --verbose
 
 # Zero-day discovery with exploitation
-python3 ScanBanner.py --target app.com --zero-day-discovery --auto-exploit --generate-poc
+python3 RedPhantom.py --target app.com --zero-day-discovery --auto-exploit --generate-poc
 ```
 
 ### **💀 MEMORY CORRUPTION EXPLOITS**
 ```bash
 # Buffer overflow + ROP chain exploitation
-python3 ScanBanner.py --target vulnerable-app.com --memory-corruption --blackhat
+python3 RedPhantom.py --target vulnerable-app.com --memory-corruption --blackhat
 
 # Heap spraying + UAF exploitation
-python3 ScanBanner.py --target heap-app.com --memory-corruption --auto-exploit
+python3 RedPhantom.py --target heap-app.com --memory-corruption --auto-exploit
 
 # JIT spraying for browser exploitation
-python3 ScanBanner.py --target browser-app.com --memory-corruption --advanced-payloads
+python3 RedPhantom.py --target browser-app.com --memory-corruption --advanced-payloads
 ```
 
 ### **🔥 KERNEL PRIVILEGE ESCALATION**
 ```bash
 # Automated kernel exploitation
-python3 ScanBanner.py --target linux-server.com --kernel-exploits --auto-exploit
+python3 RedPhantom.py --target linux-server.com --kernel-exploits --auto-exploit
 
 # Windows kernel exploitation + persistence
-python3 ScanBanner.py --target windows-server.com --kernel-exploits --advanced-persistence
+python3 RedPhantom.py --target windows-server.com --kernel-exploits --advanced-persistence
 
 # CVE-specific targeting
-python3 ScanBanner.py --target old-ubuntu.com --kernel-exploits --generate-poc
+python3 RedPhantom.py --target old-ubuntu.com --kernel-exploits --generate-poc
 ```
 
 ### **🎯 POLYMORPHIC PAYLOADS**
 ```bash
 # Anti-detection payload generation
-python3 ScanBanner.py --target webapp.com --advanced-payloads --stealth-mode phantom
+python3 RedPhantom.py --target webapp.com --advanced-payloads --stealth-mode phantom
 
 # Multi-variant payload generation
-python3 ScanBanner.py --target app.com --advanced-payloads --generate-poc --verbose
+python3 RedPhantom.py --target app.com --advanced-payloads --generate-poc --verbose
 
 # Living off the land payloads
-python3 ScanBanner.py --target corporate.com --advanced-payloads --osint
+python3 RedPhantom.py --target corporate.com --advanced-payloads --osint
 ```
 
 ### **🎯 C2 FRAMEWORK DEPLOYMENT**
 ```bash
 # C2 infrastructure deployment
-python3 ScanBanner.py --target compromised.com --c2-deployment --auto-exploit
+python3 RedPhantom.py --target compromised.com --c2-deployment --auto-exploit
 
 # C2 with advanced persistence
-python3 ScanBanner.py --target server.com --c2-deployment --advanced-persistence
+python3 RedPhantom.py --target server.com --c2-deployment --advanced-persistence
 ```
 
 ### **🔒 ADVANCED PERSISTENCE**
 ```bash
 # Rootkit deployment
-python3 ScanBanner.py --target system.com --advanced-persistence --blackhat
+python3 RedPhantom.py --target system.com --advanced-persistence --blackhat
 
 # Firmware-level persistence
-python3 ScanBanner.py --target uefi-system.com --advanced-persistence --kernel-exploits
+python3 RedPhantom.py --target uefi-system.com --advanced-persistence --kernel-exploits
 
 # Stealth persistence
-python3 ScanBanner.py --target target.com --advanced-persistence --stealth-mode phantom
+python3 RedPhantom.py --target target.com --advanced-persistence --stealth-mode phantom
 ```
 
 ### **🔗 ELITE LATERAL MOVEMENT**
 ```bash
 # Advanced AD attacks
-python3 ScanBanner.py --target domain.corp.com --lateral-movement-advanced --osint
+python3 RedPhantom.py --target domain.corp.com --lateral-movement-advanced --osint
 
 # Kerberos attack suite
-python3 ScanBanner.py --target ad.company.com --lateral-movement-advanced --auto-exploit
+python3 RedPhantom.py --target ad.company.com --lateral-movement-advanced --auto-exploit
 
 # BloodHound + lateral movement
-python3 ScanBanner.py --target network.corp.com --lateral-movement-advanced --c2-deployment
+python3 RedPhantom.py --target network.corp.com --lateral-movement-advanced --c2-deployment
 ```
 
 ## 🔥 **NEW BLACK HAT MODULES (2024 UPDATE)**
@@ -574,35 +574,35 @@ $(whoami)
 ### **🎓 Learning & Research (Safe)**
 ```bash
 # Educational scanning on legal targets
-python3 ScanBanner.py --target testphp.vulnweb.com --audit --verbose
-python3 ScanBanner.py --target scanme.nmap.org --osint --stealth-mode normal
+python3 RedPhantom.py --target testphp.vulnweb.com --audit --verbose
+python3 RedPhantom.py --target scanme.nmap.org --osint --stealth-mode normal
 ```
 
 ### **🧪 Personal Lab Testing**
 ```bash
 # Your own laboratory environment
-python3 ScanBanner.py --target localhost:8080 --blackhat --auto-exploit --generate-poc
-python3 ScanBanner.py --target 192.168.1.100 --blackhat --stealth-mode ninja
+python3 RedPhantom.py --target localhost:8080 --blackhat --auto-exploit --generate-poc
+python3 RedPhantom.py --target 192.168.1.100 --blackhat --stealth-mode ninja
 ```
 
 ### **🎖️ Red Team Assessment (Authorized)**
 ```bash
 # Authorized penetration testing
-python3 ScanBanner.py --target authorized-client.com --blackhat --stealth-mode ghost --osint
-python3 ScanBanner.py --file corporate-assets.txt --redteam --auto-exploit --generate-poc
+python3 RedPhantom.py --target authorized-client.com --blackhat --stealth-mode ghost --osint
+python3 RedPhantom.py --file corporate-assets.txt --redteam --auto-exploit --generate-poc
 ```
 
 ### **🐛 Bug Bounty Hunting**
 ```bash
 # Official bug bounty programs
-python3 ScanBanner.py --target bugbounty-target.com --osint --auto-exploit --stealth-mode ninja
-python3 ScanBanner.py --file subdomains.txt --bugbounty --nuclei-tags "xss,sqli,ssrf" --generate-poc
+python3 RedPhantom.py --target bugbounty-target.com --osint --auto-exploit --stealth-mode ninja
+python3 RedPhantom.py --file subdomains.txt --bugbounty --nuclei-tags "xss,sqli,ssrf" --generate-poc
 ```
 
 ### **🔍 Security Assessment**
 ```bash
 # Comprehensive security evaluation
-python3 ScanBanner.py --target corporate-website.com --blackhat --osint --stealth-mode phantom --output comprehensive_assessment.html
+python3 RedPhantom.py --target corporate-website.com --blackhat --osint --stealth-mode phantom --output comprehensive_assessment.html
 ```
 
 ## 🔧 **ADVANCED CONFIGURATION**
@@ -720,13 +720,13 @@ def safety_check(target, mode):
 ### **Audit Mode (100% Safe)**
 ```bash
 # Complete functionality without real attacks
-python3 ScanBanner.py --target example.com --blackhat --auto-exploit --audit
+python3 RedPhantom.py --target example.com --blackhat --auto-exploit --audit
 ```
 
 ### **Detailed Logging & Evidence**
 ```bash
 # Comprehensive logging for forensics
-python3 ScanBanner.py --target example.com --blackhat --verbose --debug --output detailed_report.html
+python3 RedPhantom.py --target example.com --blackhat --verbose --debug --output detailed_report.html
 ```
 
 ## 📋 **EXECUTION SAFETY CHECKLIST**
@@ -795,25 +795,25 @@ test.local,Dev environment,LOW,AUTHORIZED
 **1. High False Positive Rate**
 ```bash
 # Increase AI confidence threshold
-python3 ScanBanner.py --target example.com --blackhat --ai-confidence 0.9
+python3 RedPhantom.py --target example.com --blackhat --ai-confidence 0.9
 ```
 
 **2. WAF/IDS Detection**
 ```bash
 # Use maximum stealth mode
-python3 ScanBanner.py --target example.com --stealth-mode phantom --delay 15
+python3 RedPhantom.py --target example.com --stealth-mode phantom --delay 15
 ```
 
 **3. Exploitation Failures**
 ```bash
 # Verify with audit mode first
-python3 ScanBanner.py --target example.com --auto-exploit --audit --verbose
+python3 RedPhantom.py --target example.com --auto-exploit --audit --verbose
 ```
 
 **4. OSINT Rate Limiting**
 ```bash
 # Enable intelligent delays
-python3 ScanBanner.py --target example.com --osint --stealth-mode ghost
+python3 RedPhantom.py --target example.com --osint --stealth-mode ghost
 ```
 
 ### **Dependency Issues**
